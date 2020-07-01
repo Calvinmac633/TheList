@@ -1,0 +1,53 @@
+/*THIS MIGHT BE ONLY AFFECTING HEROKU
+
+
+/* .btn-primary{
+    width: 200;
+    margin: auto;
+    color: #683fb5; 
+    font-size:40px;
+    font-Family: londrina Shadow;
+    background-color: #dee3e2; 
+    border: 3px solid #683fb5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-Bottom: 30px;
+   
+}
+.form-control{
+    width:200;
+    margin: auto;
+    font-Family: Open Sans;
+    font-size:50px;
+    border: 3px solid #683fb5;
+}
+.form-text{
+    font-Family: londrina Shadow;
+    font-size:20px;
+    color: #000000
+} */
+
+/* html {
+    background-color: #492a84e3; 
+
+} */
+
+
+.formsContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.form-group {
+    margin-top: .5rem!important;
+    margin-bottom: .5rem!important;
+}
+#formSearch {
+    margin-right: .25rem;
+
+}
+#formQuantity {
+    margin-left: .25rem;
+    width: 100px;
+}

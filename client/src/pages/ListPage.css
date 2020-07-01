@@ -1,0 +1,113 @@
+
+h1{
+    font-family:londrina Shadow;
+    font-Size: 30px;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 2%;     */
+    font-weight: 900;
+
+}
+
+
+.faveButtonContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+
+.saveFaveButton {
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: .5rem;
+}
+.deleteFaveButton {
+    background-color: #f44336;; /* Red */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: .5rem;
+}
+.deleteFaveButton:hover:active {
+    background-color: #c13127e7;; /* Red */
+}
+.saveFaveButton:hover:active {
+    background-color: rgba(39, 117, 42, 0.925); /* Green */
+}
+.codenameHead {
+    color: rgb(32, 66, 154);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.782);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: .8rem;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 6vw!important;
+    margin-top: 1rem!important;
+}
+h4 {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 5vw!important;
+    margin-top: 1rem!important;
+}
+h3 {
+    text-align: center;
+    color: rgb(32, 66, 154);
+    font-weight: 400;
+    font-size: 5vw!important;
+    margin: 0 auto;
+    padding: .15rem;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 0;
+
+}
+small {
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 4vw!important;
+    margin: 0 auto;
+    padding: .15rem;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 0;
+
+}
+
+.MuiTypography-body2, .MuiTypography-displayBlock {
+    font-size: 1.1em!important;
+}
+
+.codenameButton {
+    border: none;
+    padding: none;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    color: rgb(32, 66, 154);
+    font-weight: 400;
+    font-size: 5vw!important;
+    background-color: rgba(255, 255, 255, 0.836);
+    width: 60%;
+    align-content: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
